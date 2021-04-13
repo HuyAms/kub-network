@@ -17,4 +17,5 @@ spec:
           image: dinhhuyams/kub-demo-users:latest
           env:
             - name: AUTH_ADDRESS
-              value: "10.105.243.155"
+              #              value: "10.105.243.155"
+              value: "auth-service.default"
